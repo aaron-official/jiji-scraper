@@ -168,7 +168,7 @@ Open `jiji_scraper.py` and modify the `if __name__ == "__main__":` block to suit
 
     ```python
     my_numbers_to_exclude = [
-        "0780363182",  # Example: your personal number
+        "0700000000",  # Example: your personal number
         # Add more of your own 07XXXXXXXX numbers here
     ]
 

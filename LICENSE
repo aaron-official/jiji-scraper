@@ -1,54 +1,129 @@
-MIT License with Ethical Use Restrictions
+MIT License with Strict Ethical Use Restrictions
 
 Copyright (c) 2025 aaron-official
 
+EDUCATIONAL AND DEMONSTRATION PURPOSES ONLY
+
+This software is provided EXCLUSIVELY for educational, learning, and portfolio 
+demonstration purposes. It is NOT intended for deployment or use on any live 
+platform, particularly Jiji.ug.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to study,
+learn from, modify for educational purposes, and reference in portfolio materials,
+subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-ETHICAL USE RESTRICTIONS:
+CRITICAL TERMS OF SERVICE VIOLATION WARNING:
 
-1. EDUCATIONAL PURPOSE ONLY: This Software is provided strictly for educational,
-   research, and learning purposes. Commercial use, bulk data harvesting, or any
-   use that generates revenue is expressly prohibited without prior written consent.
+THIS SOFTWARE VIOLATES JIJI.UG'S TERMS OF SERVICE. Specifically, it violates:
 
-2. COMPLIANCE WITH LAWS: Users must comply with all applicable laws, including but
-   not limited to:
-   - Data protection and privacy laws (GDPR, Uganda Data Protection and Privacy Act, etc.)
-   - Computer fraud and abuse laws
-   - Terms of Service of target websites
-   - Anti-spam and anti-harassment regulations
+1. Jiji.ug Terms of Service Section on Data Harvesting:
+   "You will not harvest or otherwise collect information about users, including 
+   email addresses, phone numbers, without their consent or otherwise violate 
+   the privacy of another person"
 
-3. RESPECT FOR PRIVACY: Users must:
-   - NOT use extracted data for unsolicited marketing or spam
-   - NOT share, sell, or distribute personal information obtained through this Software
-   - Obtain proper consent before contacting individuals whose data was extracted
-   - Implement appropriate security measures to protect any extracted data
-   - Delete extracted data when research is complete
+2. Jiji.ug Terms of Service Section on Automated Access:
+   "You will not use software and pursue any other actions aimed to interference 
+   with the normal operation of the Platform"
 
-4. RESPONSIBLE SCRAPING: Users must:
-   - Respect robots.txt directives
-   - Implement reasonable rate limiting and delays
-   - NOT overwhelm target servers with excessive requests
-   - NOT use the Software in a manner that could be considered denial of service
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE AND AGREE THAT:
+- This software is a TECHNICAL DEMONSTRATION ONLY
+- It must NOT be executed against Jiji.ug or any similar platform
+- It is provided to showcase technical skills and web scraping concepts
+- You will NOT use it to violate any website's Terms of Service
 
-5. NO WARRANTY FOR LEGAL COMPLIANCE: The authors make no warranty that use of this
-   Software complies with any particular jurisdiction's laws or any website's terms
-   of service. Users are solely responsible for ensuring their use is lawful.
+STRICT USAGE RESTRICTIONS:
 
-6. PROHIBITED USES: The Software must NOT be used for:
-   - Harassment, stalking, or threatening behavior
-   - Fraud, identity theft, or other criminal activities
-   - Creating spam lists or unsolicited marketing databases
-   - Any activity that violates the rights or privacy of individuals
-   - Competitive intelligence gathering without proper authorization
-   - Any malicious, harmful, or unethical purpose
+1. PROHIBITED USES - This Software must NOT be used for:
+   a) Scraping Jiji.ug or any website without explicit written permission
+   b) Harvesting personal data (phone numbers, emails, addresses)
+   c) Violating any website's Terms of Service or robots.txt
+   d) Commercial data collection or resale
+   e) Unsolicited marketing, spam, or harassment
+   f) Any activity that violates data protection laws
+   g) Competitive intelligence without authorization
+   h) Fraud, identity theft, or other criminal activities
+   i) Any purpose that infringes on individual privacy rights
+   j) Overwhelming servers or denial of service activities
+
+2. PERMITTED USES - This Software MAY ONLY be used for:
+   a) Studying web scraping techniques and browser automation
+   b) Learning Python, Playwright, and data extraction concepts
+   c) Portfolio or resume demonstration (code only, not execution)
+   d) Educational coursework or research with proper supervision
+   e) Scraping your own websites or test environments
+   f) Scraping websites where you have explicit written permission
+   g) Practicing on designated scraping sandboxes (e.g., toscrape.com)
+
+3. LEGAL COMPLIANCE REQUIREMENTS:
+   Users must comply with ALL applicable laws and regulations, including but not 
+   limited to:
+   a) Uganda Data Protection and Privacy Act (2019)
+   b) European Union General Data Protection Regulation (GDPR)
+   c) California Consumer Privacy Act (CCPA) and similar US state laws
+   d) Computer Fraud and Abuse Act (CFAA) and similar legislation
+   e) Anti-spam laws (CAN-SPAM Act, etc.)
+   f) Terms of Service of any target website
+   g) robots.txt directives and web standards
+   h) Copyright and intellectual property laws
+   i) All local, national, and international privacy regulations
+
+4. MANDATORY DISCLAIMERS:
+   a) NO WARRANTY FOR LEGAL COMPLIANCE: The authors make no warranty that study
+      or examination of this Software constitutes legal activity in any jurisdiction.
+   b) EDUCATIONAL CONTEXT ONLY: This code is provided as a case study in what 
+      NOT to do without permission.
+   c) NO ENDORSEMENT: The authors do NOT endorse, encourage, or support the 
+      actual deployment of this software against any live platform.
+   d) USER RESPONSIBILITY: Users are SOLELY responsible for ensuring their 
+      use complies with all applicable laws and terms of service.
+
+5. DATA PROTECTION AND PRIVACY:
+   Users who study this code must understand and respect that:
+   a) Phone numbers are personal data protected by privacy laws
+   b) Extracting personal data without consent is generally illegal
+   c) Bulk data collection enables spam, fraud, and harassment
+   d) Data minimization principles must be followed in any legitimate use
+   e) Proper security measures are required for any personal data
+   f) Individuals have rights to access, correct, and delete their data
+   g) Valid legal basis is required for processing personal information
+
+6. ETHICAL OBLIGATIONS:
+   Anyone who views, studies, or modifies this code agrees to:
+   a) Prioritize respect for privacy and individual rights
+   b) Never use knowledge gained to harm others
+   c) Advocate for ethical data practices in their professional work
+   d) Understand the difference between technical capability and legal permission
+   e) Consider the societal impact of web scraping and data collection
+   f) Report vulnerabilities responsibly rather than exploit them
+
+7. ACADEMIC AND RESEARCH USE:
+   If using this code for academic purposes, you must:
+   a) Obtain Institutional Review Board (IRB) approval where applicable
+   b) Ensure proper informed consent mechanisms
+   c) Follow your institution's research ethics guidelines
+   d) Cite this repository appropriately in academic work
+   e) Not execute the code against live platforms without explicit permission
+   f) Focus on the technical concepts rather than actual data collection
+
+8. COMMERCIAL USE PROHIBITION:
+   Commercial use of this Software is EXPRESSLY PROHIBITED, including but not 
+   limited to:
+   a) Data harvesting for resale or commercial databases
+   b) Lead generation or marketing list creation
+   c) Competitive intelligence gathering without authorization
+   d) Any revenue-generating activity based on scraped data
+   e) Providing scraping-as-a-service using this code
+
+9. ENFORCEMENT AND LIABILITY:
+   a) The authors reserve the right to report Terms of Service violations
+   b) Users who deploy this code against live platforms do so at their own risk
+   c) The authors will cooperate with legal authorities investigating misuse
+   d) This license can be terminated for violations at any time
+   e) Violators may be held liable for damages under applicable law
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -58,13 +133,53 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-ADDITIONAL DISCLAIMERS:
+LIMITATION OF LIABILITY:
 
-- The authors and contributors assume NO LIABILITY for any misuse of this Software
-- Users accept FULL RESPONSIBILITY for their actions and any consequences thereof
-- This Software is NOT intended to circumvent security measures or access restrictions
-- Use of this Software may violate terms of service of third-party websites
-- The authors do NOT endorse or encourage any violation of laws or terms of service
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHORS OR 
+COPYRIGHT HOLDERS BE LIABLE FOR:
+- Any misuse of this Software by third parties
+- Legal consequences arising from violation of Terms of Service
+- Data protection violations or privacy breaches
+- Criminal charges resulting from unauthorized access or data theft
+- Civil lawsuits or regulatory penalties
+- Reputational damage or loss of business opportunities
+- Any direct, indirect, incidental, special, exemplary, or consequential damages
 
-BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE
-TO BE BOUND BY THESE TERMS AND CONDITIONS.
+USERS ASSUME ALL RISKS AND LIABILITY ASSOCIATED WITH THEIR USE OF THIS SOFTWARE.
+
+SEVERABILITY:
+
+If any provision of this License is held to be unenforceable or invalid, that 
+provision shall be enforced to the maximum extent possible, and the other 
+provisions shall remain in full force and effect.
+
+ACKNOWLEDGMENT:
+
+BY DOWNLOADING, VIEWING, COPYING, MODIFYING, OR OTHERWISE USING THIS SOFTWARE 
+IN ANY WAY, YOU ACKNOWLEDGE THAT:
+
+1. You have read and understood this entire License
+2. You understand that this Software violates Jiji.ug's Terms of Service
+3. You will NOT execute this code against Jiji.ug or similar platforms
+4. You will use this code ONLY for educational and learning purposes
+5. You are solely responsible for ensuring your use complies with all laws
+6. You agree to indemnify and hold harmless the authors from any claims
+7. You understand that technical capability does not equal legal permission
+8. You will respect privacy, data protection, and individual rights
+
+FINAL WARNING:
+
+This Software is a demonstration of web scraping techniques that, while 
+technically functional, should NOT be deployed. It serves as:
+- A technical portfolio piece showcasing programming skills
+- An educational resource for understanding web automation
+- A case study in legal and ethical considerations
+- A warning about the consequences of unauthorized data collection
+
+DO NOT USE THIS SOFTWARE TO SCRAPE ANY WEBSITE WITHOUT EXPLICIT WRITTEN PERMISSION.
+
+For questions about legal use, consult a qualified attorney.
+For legitimate data needs, contact website administrators about official APIs.
+
+Version: 1.0
+Last Updated: November 2025

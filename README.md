@@ -1,131 +1,211 @@
-# Jiji.ug Data Extraction Tool
+# Web Scraping Education Project - Playwright Automation Demo
 
-> ⚠️ **IMPORTANT LEGAL DISCLAIMER**
+> 🛑 **CRITICAL WARNING - DO NOT USE ON JIJI.UG**
 > 
-> This tool is provided **strictly for educational and personal research purposes only**. By using this software, you acknowledge and agree to the following:
-> 
-> - **Terms of Service Compliance**: You are solely responsible for ensuring your use complies with Jiji.ug's Terms of Service, robots.txt file, and applicable laws
-> - **Data Privacy**: Extracting personal information (including phone numbers) may violate privacy laws such as Uganda's Data Protection and Privacy Act, GDPR, or other regional regulations
-> - **Rate Limiting**: Excessive scraping may place undue burden on Jiji.ug's servers and could be considered a denial of service
-> - **No Commercial Use**: This tool is NOT intended for commercial purposes, bulk data harvesting, spam, or any activities that could harm individuals or businesses
-> - **Ethical Use Only**: Use this tool responsibly and ethically. Do not use extracted data for harassment, unsolicited marketing, fraud, or any malicious purposes
-> 
-> **THE AUTHORS AND CONTRIBUTORS OF THIS PROJECT ASSUME NO LIABILITY FOR ANY MISUSE OF THIS TOOL. YOU USE IT AT YOUR OWN RISK.**
+> **This project violates Jiji.ug's Terms of Service and should NOT be used on their platform.**
+>
+> After thorough review of Jiji.ug's Terms of Service, this tool explicitly violates their policies:
+> - **Prohibited Activity**: Jiji's Terms explicitly state: *"You will not harvest or otherwise collect information about users, including email addresses, phone numbers, without their consent"*
+> - **Automated Access**: Their Terms prohibit: *"software and pursue any other actions aimed to interference with the normal operation of the Platform"*
+> - **Legal Consequences**: Violating these terms may result in account termination, legal action, and liability for damages
+>
+> **THIS IS A TECHNICAL DEMONSTRATION ONLY** - The code showcases web scraping techniques, browser automation, and data extraction methodologies for **educational purposes**. It should **NEVER** be executed against Jiji.ug or any platform without explicit written permission.
 
 ---
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [⚖️ Legal & Ethical Considerations](#️-legal--ethical-considerations)
-- [Features](#features)
+- [Purpose of This Project](#purpose-of-this-project)
+- [⚖️ Legal & Ethical Disclaimer](#️-legal--ethical-disclaimer)
+- [What This Project Demonstrates](#what-this-project-demonstrates)
+- [Technical Features](#technical-features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Troubleshooting](#troubleshooting)
+- [Installation (For Learning Only)](#installation-for-learning-only)
+- [Legitimate Use Cases](#legitimate-use-cases)
+- [How the Code Works](#how-the-code-works)
+- [Learning Resources](#learning-resources)
 - [Contributing](#contributing)
 - [License](#license)
 
 ---
 
-## Overview
+## Purpose of This Project
 
-This is a web scraping tool built with Playwright that demonstrates automated data extraction techniques from Jiji.ug, a popular Ugandan classifieds platform. It extracts phone numbers from product advertisements and category listings for research and educational purposes.
+This repository is a **technical portfolio piece** and **educational resource** that demonstrates:
 
-**Intended Use Cases:**
-- Learning web scraping techniques and browser automation
-- Personal research on market trends (small-scale, ethical use)
-- Understanding dynamic content handling and infinite scroll implementations
-- Educational demonstrations of data extraction methodologies
+- Advanced Playwright automation techniques
+- Dynamic content handling (infinite scroll, popup dismissal, button clicks)
+- Cookie-based session management
+- Data extraction from multiple sources (DOM, scripts, HTML)
+- Regular expression pattern matching for phone numbers
+- Robust error handling in web scraping
 
----
+**What this project is:**
+- ✅ A learning tool for web automation concepts
+- ✅ A code example for portfolio/resume purposes
+- ✅ A demonstration of Python + Playwright capabilities
+- ✅ A reference for ethical scraping considerations
 
-## ⚖️ Legal & Ethical Considerations
-
-### Before Using This Tool
-
-1. **Review Jiji.ug's Terms of Service**: Visit [Jiji.ug](https://jiji.ug/) and carefully read their terms of service and acceptable use policy
-
-2. **Check robots.txt**: Review `https://jiji.ug/robots.txt` to understand which pages are permitted for automated access
-
-3. **Respect Rate Limits**: Implement reasonable delays between requests to avoid overwhelming the server
-
-4. **Data Privacy Compliance**:
-   - Do NOT use extracted data for unsolicited communications
-   - Do NOT share, sell, or distribute personal information
-   - Ensure compliance with applicable data protection laws
-   - Consider data minimization principles
-
-5. **Obtain Consent**: If using extracted data to contact individuals, ensure you have proper legal basis under applicable law
-
-### Recommendations for Responsible Use
-
-- **Limit scope**: Only scrape small amounts of data for personal research
-- **Add delays**: Implement reasonable wait times between page loads
-- **Use sparingly**: Don't run the scraper continuously or repeatedly
-- **Respect opt-outs**: If someone asks not to be contacted, honor that immediately
-- **Secure storage**: Protect any extracted data with appropriate security measures
-- **Delete when done**: Remove extracted data when your research is complete
+**What this project is NOT:**
+- ❌ A tool to be used on Jiji.ug or any live platform
+- ❌ A commercial data harvesting solution
+- ❌ Legal or compliant with most websites' Terms of Service
+- ❌ Intended for actual deployment or production use
 
 ---
 
-## Features
+## ⚖️ Legal & Ethical Disclaimer
 
-- **Playwright-Powered Automation**: Uses Playwright's asynchronous API with Chromium for reliable browser automation
-- **Dynamic Content Handling**: 
-  - Automatically clicks "Show contact" buttons to reveal phone numbers
-  - Dismisses language preference popups
-  - Handles both category listings and single advert pages
-- **Comprehensive Number Extraction**:
-  - Scans `__NUXT_DATA__` script content
-  - Extracts from contacts popover DOM elements
-  - Parses full HTML and rendered text including comments
-- **Strict Mobile Number Normalization**:
-  - Validates Ugandan mobile numbers (07XXXXXXXX format)
-  - Normalizes all numbers to international format (+2567XXXXXXXX)
-  - Deduplicates results using sets
-- **Cookie-Based Session Management**: Maintains authenticated sessions to avoid login popups
-- **Intelligent Infinite Scrolling**: Automatically loads all content with configurable limits
-- **Personal Number Exclusion**: Filter out your own phone numbers from results
+### Terms of Service Violations
+
+**This scraper violates the following provisions in Jiji.ug's Terms of Service:**
+
+1. **Data Harvesting Prohibition** (Direct Quote):
+   > "You will not harvest or otherwise collect information about users, including email addresses, phone numbers, without their consent or otherwise violate the privacy of another person"
+
+2. **Automated Access Prohibition** (Direct Quote):
+   > "You will not use software and pursue any other actions aimed to interference with the normal operation of the Platform"
+
+3. **Privacy Violations**: Extracting phone numbers without consent violates privacy rights
+
+### Legal Risks
+
+Using this tool on Jiji.ug or similar platforms may result in:
+
+- **Account Termination**: Immediate suspension and permanent ban
+- **Legal Action**: Civil lawsuits for breach of contract and terms violations
+- **Criminal Charges**: Potential violations of computer fraud and abuse laws
+- **Data Protection Violations**: Uganda Data Protection and Privacy Act, GDPR, or similar regulations
+- **Financial Liability**: Damages, legal fees, and potential fines
+
+### Data Protection Laws
+
+Extracting personal data (phone numbers) without consent likely violates:
+- 🇺🇬 Uganda's Data Protection and Privacy Act (2019)
+- 🇪🇺 GDPR (if any EU residents' data is involved)
+- 🇺🇸 Various US state privacy laws (CCPA, etc.)
+- 🌍 Other regional data protection regulations
+
+### Ethical Considerations
+
+**Why this matters:**
+- Phone numbers are **personal information** that people expect to be protected
+- Bulk extraction enables **spam, fraud, and harassment**
+- Violates user expectations and **consent principles**
+- Places undue burden on website infrastructure
+- Undermines trust in online marketplaces
+
+---
+
+## What This Project Demonstrates
+
+### Technical Skills Showcased
+
+1. **Browser Automation**
+   - Playwright async API with Python
+   - Headed vs headless browser modes
+   - Cookie injection for session management
+
+2. **Dynamic Content Handling**
+   - Clicking dynamically loaded elements
+   - Dismissing popups automatically
+   - Infinite scroll detection and processing
+
+3. **Data Extraction Techniques**
+   - DOM element scraping
+   - JavaScript data extraction (`__NUXT_DATA__`)
+   - HTML parsing with BeautifulSoup
+   - Regular expression pattern matching
+
+4. **Data Processing**
+   - Phone number normalization (Ugandan format)
+   - Deduplication using sets
+   - Data filtering and exclusion lists
+
+5. **Error Handling**
+   - Timeout management
+   - Graceful failure recovery
+   - Logging and debugging
+
+---
+
+## Technical Features
+
+### Core Capabilities (For Educational Reference)
+
+- **Playwright-Powered**: Asynchronous browser automation with Chromium
+- **Cookie Management**: Netscape HTTP Cookie File parsing and injection
+- **Smart Page Detection**: Differentiates between category pages and single adverts
+- **Infinite Scroll Handling**: Loads all content with configurable limits
+- **Multi-Source Extraction**: Scans DOM, scripts, and HTML
+- **Pattern Matching**: Validates and normalizes Ugandan phone numbers (07XXXXXXXX → +2567XXXXXXXX)
+- **Global Deduplication**: Tracks visited URLs to prevent duplicate processing
+- **Exclusion Lists**: Filters out specified numbers
 - **Robust Error Handling**: Continues operation despite individual page failures
+
+### Architecture Highlights
+
+```
+┌─────────────────┐
+│  Cookie Loader  │ → Maintains session state
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│  Page Navigator │ → Handles URLs, detects page types
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Scroll Manager  │ → Loads infinite scroll content
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Data Extractor  │ → Multi-source phone number extraction
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│  Normalizer     │ → Validates, formats, deduplicates
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│  File Output    │ → Saves unique results
+└─────────────────┘
+```
 
 ---
 
 ## Prerequisites
 
-- **Python 3.8 or higher** - [Download Python](https://www.python.org/downloads/)
+- **Python 3.8+** - [Download Python](https://www.python.org/downloads/)
 - **pip** (Python package installer)
-- **Basic command line knowledge**
+- **Basic understanding of web scraping ethics and laws**
 
 ---
 
-## Installation
+## Installation (For Learning Only)
 
-### 1. Clone the Repository
+### ⚠️ Installation Does NOT Grant Permission to Use
+
+Installing this code does **not** give you permission to scrape any website. Review each target site's Terms of Service and robots.txt before even considering use.
 
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/jiji-scraper.git
 cd jiji-scraper
-```
 
-### 2. Create a Virtual Environment (Recommended)
-
-```bash
-# On Windows
+# Create virtual environment (recommended)
 python -m venv venv
+
+# Activate virtual environment
+# On Windows:
 venv\Scripts\activate
-
-# On macOS/Linux
-python3 -m venv venv
+# On macOS/Linux:
 source venv/bin/activate
-```
 
-### 3. Install Dependencies
-
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Install Playwright browsers
+playwright install chromium
 ```
 
 **requirements.txt:**
@@ -134,182 +214,202 @@ playwright
 beautifulsoup4
 ```
 
-### 4. Install Playwright Browsers
+---
 
-```bash
-playwright install chromium
-```
+## Legitimate Use Cases
 
-This downloads the Chromium browser that Playwright will use for automation.
+### Where You CAN Use Similar Techniques
+
+✅ **Your own websites** - Scrape sites you own or operate
+✅ **With explicit permission** - Written authorization from website owners
+✅ **Public APIs** - Use official APIs instead of scraping (Jiji.ug may offer APIs)
+✅ **Academic research** - With IRB approval and proper consent mechanisms
+✅ **Open data sources** - Government databases, public records with explicit scraping permissions
+✅ **Test environments** - Practice sites designed for scraping education (e.g., books.toscrape.com)
+
+### Recommended Learning Alternatives
+
+Instead of scraping Jiji.ug, practice on:
+
+1. **http://books.toscrape.com** - Specifically designed for scraping practice
+2. **https://quotes.toscrape.com** - Quote scraping sandbox
+3. **Your own local test server** - Build a dummy site to practice on
+4. **Jiji.ug's API** (if available) - Contact them about legitimate data access
+
+### How to Do This Legally
+
+If you need real marketplace data:
+
+1. **Contact Jiji Support**: Email support@jiji.ug requesting:
+   - Research partnership opportunities
+   - Official API access
+   - Data licensing agreements
+   
+2. **Academic Research Protocol**:
+   - Get IRB (Institutional Review Board) approval
+   - Request formal permission from Jiji
+   - Implement proper consent mechanisms
+   - Limit scope and ensure data protection
+
+3. **Commercial Licensing**:
+   - Negotiate data licensing agreements
+   - Pay for official data access
+   - Sign proper legal contracts
 
 ---
 
-## Configuration
+## How the Code Works
 
-### 1. Obtain Cookies File
+### (Technical Documentation for Learning)
 
-The scraper requires authentication cookies to function properly.
-
-**Using a Browser Extension:**
-
-1. Install a "cookies.txt" extension for your browser:
-   - **Chrome**: Search "Get cookies.txt" in Chrome Web Store
-   - **Firefox**: Search "cookies.txt" in Firefox Add-ons
-
-2. Visit [jiji.ug](https://jiji.ug/) and log in (optional but recommended)
-
-3. Click the extension icon and export cookies in **Netscape HTTP Cookie File** format
-
-4. Save as `jiji.ug_cookies.txt` in the project directory
-
-**Expected Format:**
-```
-# Netscape HTTP Cookie File
-.jiji.ug	TRUE	/	TRUE	1795071664	uid	68dc4d849277aa826d69a67fd826f0da4e5dd0f1
-jiji.ug	FALSE	/	FALSE	1790804228	lang	en
-```
-
-### 2. Configure the Script
-
-Open `jiji_scraper.py` and modify the configuration section:
+#### 1. Cookie Management
 
 ```python
-# URLs to scrape (can be category pages or individual adverts)
-jiji_category_urls = [
-    "https://jiji.ug/tv-dvd-equipment",
-    # Add more URLs here
-]
-
-# Path to your cookies file
-cookie_file = "jiji.ug_cookies.txt"
-
-# Your own numbers to exclude from results (optional)
-my_numbers_to_exclude = [
-    "0700000000",  # Replace with your actual number
-]
+# Loads Netscape format cookies
+cookies = load_cookies_from_netscape_file("jiji.ug_cookies.txt")
+await context.add_cookies(cookies)
 ```
 
-### 3. Configure Scrolling Behavior
+Maintains authenticated sessions to avoid login prompts and access restrictions.
 
-**Option A: Scroll until all content is loaded (Recommended)**
+#### 2. Page Type Detection
+
 ```python
-asyncio.run(
-    main_scraper(
-        jiji_category_urls,
-        cookie_file,
-        scroll_until_done=True,
-        max_scroll_actions_per_category=10,  # Safety limit
-    )
-)
+if "/tv-dvd-equipment" in url and not url.endswith(".html"):
+    # Category page - use infinite scroll
+    await handle_category_page(page, url)
+else:
+    # Single advert page - extract directly
+    await extract_from_advert(page, url)
 ```
 
-**Option B: Fixed number of scrolls**
+#### 3. Infinite Scroll Implementation
+
 ```python
-asyncio.run(
-    main_scraper(
-        jiji_category_urls,
-        cookie_file,
-        scroll_until_done=False,
-        max_scroll_actions_per_category=5,
-    )
-)
+while scroll_count < max_scrolls:
+    previous_ads = current_ad_count
+    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+    await page.wait_for_timeout(2000)
+    current_ad_count = await page.locator(".ad-selector").count()
+    
+    if current_ad_count == previous_ads:
+        break  # No new content
 ```
+
+#### 4. Phone Number Extraction
+
+```python
+# Pattern matches Ugandan numbers: 07XXXXXXXX
+pattern = r'\b(0[7][0-9]{8})\b'
+matches = re.findall(pattern, text)
+
+# Normalize to international format
+normalized = [f"+256{num[1:]}" for num in matches]
+```
+
+#### 5. Multi-Source Scanning
+
+- **DOM Elements**: `.b-show-contacts-popover-item__phone`
+- **Script Content**: `__NUXT_DATA__` JSON parsing
+- **Full HTML**: BeautifulSoup text extraction
+- **Visible Text**: Page content including comments
 
 ---
 
-## Usage
+## Learning Resources
 
-Run the scraper from your terminal:
+### Web Scraping Ethics & Law
 
-```bash
-python jiji_scraper.py
-```
+- [Web Scraping Best Practices](https://www.scrapinghub.com/guides/web-scraping-best-practices/)
+- [Legal Risks of Web Scraping (2024)](https://blog.apify.com/is-web-scraping-legal/)
+- [GDPR and Web Scraping](https://gdpr.eu/data-scraping/)
 
-The script will:
-1. Load your cookies to maintain session state
-2. Visit each specified URL
-3. Scroll through category pages to load all adverts
-4. Click "Show contact" buttons on advert pages
-5. Extract and normalize phone numbers
-6. Save unique numbers to `jiji_phone_numbers.txt`
+### Playwright Documentation
 
-**Output:**
-```
-Starting Jiji.ug scraper (Playwright)...
-Loaded 15 cookies from jiji.ug_cookies.txt
-Processing: https://jiji.ug/tv-dvd-equipment
-Detected category page. Scrolling to load all adverts...
-Scroll 1/10: Found 24 total ads so far...
-Extracted 47 unique phone numbers.
-Results saved to jiji_phone_numbers.txt
-```
+- [Official Playwright Docs](https://playwright.dev/python/)
+- [Playwright Authentication Guide](https://playwright.dev/python/docs/auth)
+- [Handling Dynamic Content](https://playwright.dev/python/docs/navigations)
 
----
+### Python Web Scraping
 
-## How It Works
+- [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Regular Expressions in Python](https://docs.python.org/3/howto/regex.html)
+- [Async/Await in Python](https://realpython.com/async-io-python/)
 
-1. **Cookie Authentication**: Injects browser cookies to maintain logged-in state
-2. **Page Type Detection**: Identifies whether URL is a category listing or single advert
-3. **Dynamic Loading**: For categories, scrolls until all adverts are loaded
-4. **Advert Processing**: Visits each unique advert page
-5. **Contact Revelation**: Clicks buttons to reveal hidden phone numbers
-6. **Multi-Source Extraction**: Scans JavaScript data, HTML, and visible text
-7. **Validation & Normalization**: Ensures all numbers are valid Ugandan mobile numbers
-8. **Deduplication**: Stores only unique numbers in international format
-9. **Filtering**: Removes any personal numbers you've configured to exclude
+### Ethical Alternatives
 
----
-
-## Troubleshooting
-
-### Browser Closes Immediately
-- Jiji.ug may detect headless browsers. The script runs in headed mode by default
-- Ensure your cookies file is up to date
-
-### No Phone Numbers Found
-- Verify your cookies file is properly formatted and not expired
-- Check that you're logged in to Jiji.ug in your browser before exporting cookies
-- Some ads may not display contact information
-
-### Script Hangs During Scrolling
-- Reduce `max_scroll_actions_per_category` value
-- Check your internet connection
-- Some pages may have loading issues
-
-### Permission Errors
-- Ensure you have write permissions in the project directory
-- Check that `jiji_phone_numbers.txt` isn't open in another program
+- [Public APIs List](https://github.com/public-apis/public-apis)
+- [Practice Scraping Sites](http://toscrape.com/)
+- [Web Scraping Sandbox](https://www.scrapethissite.com/)
 
 ---
 
 ## Contributing
 
-This is an educational project. If you have improvements or bug fixes:
+This is an educational project demonstrating web scraping techniques. Contributions are welcome that:
+
+- ✅ Improve code quality and documentation
+- ✅ Add ethical considerations and warnings
+- ✅ Enhance error handling and robustness
+- ✅ Demonstrate alternative, legal approaches
+- ✅ Add educational comments and explanations
+
+**We will NOT accept:**
+- ❌ Features that facilitate Terms of Service violations
+- ❌ Removal of warnings or ethical disclaimers
+- ❌ Guides for bypassing security measures
+- ❌ Anything that encourages misuse
+
+### How to Contribute
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
+2. Create a feature branch (`git checkout -b feature/educational-improvement`)
+3. Commit your changes (`git commit -am 'Add educational content'`)
+4. Push to the branch (`git push origin feature/educational-improvement`)
 5. Open a Pull Request
-
-**Please ensure all contributions maintain the educational and ethical focus of this project.**
 
 ---
 
 ## License
 
-This project is provided for educational purposes only. See [LICENSE](LICENSE) for more information.
+See [LICENSE](LICENSE) file for details.
 
-**Disclaimer**: This software is provided "as is" without warranty of any kind. The authors are not responsible for any damages or legal issues arising from its use.
+**Additional Restrictions:**
+- This code may NOT be used to violate any website's Terms of Service
+- Commercial use for data harvesting is prohibited
+- Users must obtain explicit permission before scraping any platform
+- This code is provided for educational demonstration only
+
+---
+
+## Final Warning
+
+**TO USERS**: Do not use this tool on Jiji.ug or any other platform without:
+1. ✅ Reading and understanding their Terms of Service
+2. ✅ Obtaining explicit written permission
+3. ✅ Ensuring compliance with all applicable laws
+4. ✅ Implementing proper consent and data protection measures
+
+**TO RECRUITERS/EMPLOYERS**: This repository demonstrates technical proficiency in web automation, not actual deployment. It showcases understanding of:
+- Browser automation with Playwright
+- Asynchronous Python programming
+- Data extraction and processing
+- Legal and ethical considerations in software development
+
+**THE AUTHOR ASSUMES NO LIABILITY FOR MISUSE OF THIS CODE.**
 
 ---
 
 ## Contact & Support
 
-For questions about web scraping ethics, legal compliance, or technical issues, please open an issue on GitHub.
+For questions about:
+- **Technical implementation**: Open a GitHub issue
+- **Legal compliance**: Consult a qualified attorney
+- **Ethical considerations**: Review provided resources above
+- **Jiji.ug data access**: Contact support@jiji.ug directly
 
-**Remember**: Always prioritize ethical behavior, respect privacy, and comply with applicable laws and terms of service.
+**Remember**: The best scraping is the scraping you don't have to do. Always check for official APIs first.
 
 ---
 
-*Last Updated: November 2025*
+*This project is maintained for educational purposes only. Last Updated: November 2025*

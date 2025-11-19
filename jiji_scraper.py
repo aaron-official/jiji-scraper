@@ -371,7 +371,7 @@ if __name__ == "__main__":
 
     # List any of your own numbers here (local 07XXXXXXXX format) to exclude them from results.
     my_numbers_to_exclude = [
-        "0780363182",  # Example: your personal number
+        "0700000000",  # Example: your personal number
         # Add more 07XXXXXXXX numbers here if needed
     ]
     

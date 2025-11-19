@@ -363,7 +363,9 @@ async def main_scraper(
 # --- How to run the tool ---
 if __name__ == "__main__":
     jiji_category_urls = [
-        "https://jiji.ug/tv-dvd-equipment",
+        "https://jiji.ug/vehicles",
+        "https://jiji.ug/real-estate"
+        "https://jiji.ug/mobile-phones-tablets"
         # Add more category URLs as needed
     ]
     

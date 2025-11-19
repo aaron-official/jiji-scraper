@@ -1,0 +1,41 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+
+# Playwright / browser artifacts (if added later)
+playwright-report/
+test-results/
+.playwright/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local configuration / secrets (if any)
+*.env
+.env.local
+
+# Cookie exports (usually local-only and user-specific)
+jiji.ug_cookies.txt
+jiji_phone_numbers.txt
